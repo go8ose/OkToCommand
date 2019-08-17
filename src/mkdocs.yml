@@ -1,0 +1,6 @@
+site_name: Ok to Command
+nav:
+    - Checklist: checklist.md
+    - Contributions: contributions.md
+#theme: alabaster
+site_dir: ../docs
