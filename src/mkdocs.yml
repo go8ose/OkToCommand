@@ -4,3 +4,5 @@ nav:
     - Contributions: contributions.md
 #theme: alabaster
 site_dir: ../docs
+extra_javascript:
+    - js/tracking.js
