@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Contributions - Ok to Command</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Deck Guidelines - Ok to Command</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="..">Ok to Command</a>
+                    <a class="navbar-brand" href="../..">Ok to Command</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -47,10 +47,40 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="../checklist/">Checklist</a>
+                                <a href="../../checklist/">Checklist</a>
                             </li>
-                            <li class="active">
-                                <a href="./">Contributions</a>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Opinion <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li class="active">
+    <a href="./">Deck Guidelines</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Format <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../format/philosophy/">Philosophy</a>
+</li>
+                                    
+<li >
+    <a href="../../format/rules/">Play Rules</a>
+</li>
+                                    
+<li >
+    <a href="../../format/construction_rules/">Deck Rules</a>
+</li>
+                                    
+<li >
+    <a href="../../format/bans/">BanList</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../about/">About</a>
                             </li>
                         </ul>
 
@@ -61,12 +91,12 @@
                             </a>
                         </li>
                             <li >
-                                <a rel="next" href="../checklist/">
+                                <a rel="next" href="../../checklist/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li class="disabled">
-                                <a rel="prev" >
+                            <li >
+                                <a rel="prev" href="../../format/philosophy/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -82,14 +112,21 @@
 </div></div>
                 <div class="col-md-9" role="main">
 
-<p>This site has been put together by:</p>
+<p>For the specific requirements on what your deck must or must not do, please
+see the article on <a href="/format/construction_rules">deck construction rules</a>.
+Here are some general guidelines for constructing a commander deck. Not
+every deck will match these ideas, and it's fine to experiment. But the
+nature of the "format" (the rules, and the card pool available) means that
+frequently these guidelines make decks that perform well. </p>
 <ul>
-<li>Geoff Crompton twitter: @go8ose</li>
+<li>need &gt; 30 cards (according to command zone) to support a theme, review http://www.metamox.com/tag/ to see if they have a tag that corresponds to the theme</li>
+<li>need about 6-10 sources of Ramp (according to command zone). Commanders brew likes about 5 mana rocks, and 5 other ramp sources, and have good low curve on their cost (so 5 to 6 cmc on ramp is to high). See http://www.metamox.com/tag/ramp/</li>
+<li>need 6-10 sources of Card Draw (according to command zone). Commanders brew like 2 big draw spells and 5 to 6 little draw spells. Often using draw for mana sink. There are different types (repeatable, mana free). See http://www.metamox.com/tag/draw/</li>
+<li>~5 targeted removal (according to command zone). Commanders brew distinguishes between creature removal and artifact/enchantment removal. They like about 4 or even 5 artifact and/or enchantment removal. Commanders brew like about 3 spot creature removal. See http://www.metamox.com/tag/removal/</li>
+<li>~5 board wipes (according to command zone). Commanders brew likes about 3 wraths. See http://www.metamox.com/tag/board-wipes/</li>
+<li>commanders brew run 0 or 1 tutors. They don't like the reduction in variance that tutors cause. They think variance is fun.</li>
 </ul>
-<p>If you have some suggestions on changes, then you can:</p>
-<ul>
-<li>send a pull request</li>
-</ul></div>
+<p>But even the above is very loose guidance. If this site is well received, we will in future provide decklist walk throughs, and commander theory articles.</p></div>
         </div>
 
         <footer class="col-md-12">
@@ -97,12 +134,12 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "..",
+            var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../js/base.js" defer></script>
-        <script src="../js/tracking.js" defer></script>
-        <script src="../search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../js/tracking.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
