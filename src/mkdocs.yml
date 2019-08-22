@@ -1,7 +1,14 @@
 site_name: Ok to Command
 nav:
     - Checklist: checklist.md
-    - Contributions: contributions.md
+    - Opinion:
+        - Deck Guidelines: opinion/guidelines.md
+    - Format:
+        - Philosophy: format/philosophy.md
+        - Play Rules: format/rules.md
+        - Deck Rules: format/construction_rules.md
+        - BanList: format/bans.md
+    - About: about.md
 #theme: alabaster
 site_dir: ../docs
 extra_javascript:
