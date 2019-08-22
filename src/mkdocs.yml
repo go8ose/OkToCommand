@@ -9,7 +9,13 @@ nav:
         - Deck Rules: format/construction_rules.md
         - BanList: format/bans.md
     - About: about.md
-#theme: alabaster
+#theme:
+#    name: mkdocs
+#    custom_dir: custom_dir/
+#    static_templates:
+#        - sitemap.html
+#    include_sidebar: false
 site_dir: ../docs
 extra_javascript:
     - js/tracking.js
+copyright: Copyright Geoff Crompton 2019
