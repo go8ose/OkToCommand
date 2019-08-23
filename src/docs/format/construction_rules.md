@@ -12,4 +12,4 @@ But to summarise the requirements on how you build your deck, your commander dec
   - you may have multiple copies of cards that have printer on them rules text that says you may do that (such as Shadowborn Apostle)
 - Commander allows vintage legal cards, and cards are legal to play as of
   their sets prerelease.
-- There is a ban list, see [Bans](/format/bans.md)
+- There is a ban list, see [Bans](/format/bans)
